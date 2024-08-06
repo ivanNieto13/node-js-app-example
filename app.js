@@ -3,6 +3,7 @@ const express = require("express")
 const app = express()
 
 app.get('/', (req, res) => {
+    console.log("Test log")
     res.status(200).json({message: "Hello World!"})
 })
 
